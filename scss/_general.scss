@@ -1,0 +1,41 @@
+/* GENERAL */
+
+* {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+::selection {
+  background-color: darkcyan;
+  color: gold;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+body {
+  font-family: "Poppins", "Arial", sans-serif; 
+  @include sticky-footer;
+}
+.b-container{
+  max-width: 1335px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* STICKY-FOOTER */
+.site-main {
+  flex-grow: 1;
+}

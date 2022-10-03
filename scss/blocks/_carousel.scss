@@ -1,0 +1,62 @@
+/*carousel*/
+.carusel{
+    background: #F5F5F5;
+}
+.carusel-list{
+    padding-bottom: 140px;
+}
+.text-box{
+    padding-top: 69px;
+    max-width: 545px;
+}
+.carusel-title{
+padding-bottom: 32px;
+}
+.carusel-text{
+padding-bottom: 65px;
+}
+.carusel-box{
+    width: 100%;
+    max-width: 299px;
+    box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.05);
+}
+.carusel-box-text{
+    padding: 35px;
+}
+.box-link{
+    color: #DC7000;
+    &::after{
+        content: "";
+        display: inline-block;
+        margin-left: 12px;
+        background-image: url("../../images/orange-arrow.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 14px;
+        height: 14px;
+    }
+}
+.carusel-s{
+    padding: 7px 35px 6px 14px;
+    background: rgba(220, 0, 0, 0.1);
+}
+.carusel-green{
+    padding: 7px 35px 6px 14px;
+    background: rgba(12, 190, 100, 0.15);
+}
+.carusel-blue{
+    padding: 7px 35px 6px 14px;
+    background: rgba(0, 88, 220, 0.09);
+}
+.carusel-rose{
+    padding: 7px 35px 6px 14px;
+    color: #B000DC;
+    background: rgba(176, 0, 220, 0.11);
+}
+
+@media only  screen and (min-width:400px){
+    .carusel-box{
+        width: 100%;
+        max-width: 378px;
+    }
+}
