@@ -610,7 +610,6 @@ body {
 }
 
 .text-box {
-  margin-top: 128px;
   max-width: 479px;
 }
 
@@ -649,6 +648,10 @@ body {
     background-image: url(../images/mens-in-vr.png), url("../images/hero-bg.svg");
     background-size: contain, cover;
     background-position: calc(50% + 300px) calc(50% - 100px), 50% 50%;
+  }
+  .text-box {
+    margin-top: 128px;
+    max-width: 479px;
   }
   .hero-title {
     font-size: 50px;
