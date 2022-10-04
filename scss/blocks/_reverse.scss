@@ -1,0 +1,21 @@
+/*reverse*/
+.reverse{
+    margin-top: 103px;
+}
+.reverse-text-box{
+    max-width: 536px;
+}
+.reverse-link{
+    padding: 13px 44px;
+    background-color: #DC7000;
+}
+.reverse-img{
+   width: 100%;
+}
+
+@media only screen and (min-width:1000px){
+    .reverse-img{
+        width: 651px;
+        height: 448px;
+    }
+}

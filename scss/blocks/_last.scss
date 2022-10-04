@@ -1,0 +1,48 @@
+/*last*/
+.last-text-box{
+    max-width: 545px;
+    padding-bottom: 41px;
+}
+.last-inner{
+    padding-bottom: 148px;
+}
+.last-black-box{
+    padding: 30px 20px;
+}
+.black-inner{
+    max-width: 600px;
+}
+.last-form{
+    max-width: 385px;
+}
+.last-input-box{
+
+}
+.last-input{
+    padding: 14px auto;
+}
+.last-btn-s{
+    margin-left: -10px;
+    padding-top: 5px;
+    padding-right: 6px;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    background-color: #fff;
+
+    border-radius: 8px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 1px solid #ced4da;
+}
+.last-btn{
+    // padding: 8px 20px;
+    background-color: #DC7000;
+}
+@media only screen and (min-width:768px){
+    .last-black-box{
+        padding: 40px 56px;
+    }
+    .last-form{
+        margin-left: auto;
+    }
+}

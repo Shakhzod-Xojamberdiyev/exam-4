@@ -1,0 +1,43 @@
+/*footer*/
+.footer-top{
+    padding-top: 66px;
+    padding-bottom: 56px;
+}
+.footer-bootom{
+    border-top: 0.8px solid #D2D2D2;
+}
+.footer-p-last{
+    font-size: 12px;
+    line-height: 190.6%;
+    margin: 29px 0;
+}
+.footer-item{
+    max-width: 372px;
+    &:nth-child(2){
+        max-width: 90px;
+    }
+    &:nth-child(3){
+        max-width: 282px;
+    }
+    &:last-child{
+        max-width: 280px;
+    }
+}
+.footer-title{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+}
+.footer-link{
+    width: 34px;
+    height: 34px;
+}
+.footer-bootom{
+    
+}
+@media only screen and (min-width:768px){
+    .footer-p-last{
+        font-size: 13px;
+        line-height: 190.6%;
+    }
+}
