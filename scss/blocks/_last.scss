@@ -15,9 +15,6 @@
 .last-form{
     max-width: 385px;
 }
-.last-input-box{
-
-}
 .last-input{
     padding: 14px auto;
 }
@@ -35,10 +32,12 @@
     border: 1px solid #ced4da;
 }
 .last-btn{
-    // padding: 8px 20px;
     background-color: #DC7000;
 }
 @media only screen and (min-width:768px){
+    .last{
+        padding-top: 120px;
+    }
     .last-black-box{
         padding: 40px 56px;
     }

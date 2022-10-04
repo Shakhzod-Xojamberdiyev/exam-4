@@ -1,7 +1,6 @@
 /*service*/
 .service-inner{
     padding-top: 100px;
-    padding-bottom: 132px;
 }
 .service-text{
     max-width: 826px;
@@ -19,7 +18,7 @@
     display: block;
     margin: 0 auto;
     margin-bottom: 30px;
-    background-image: url("../../images/mobile.svg");
+    background-image: url("../images/mobile.svg");
     background-repeat: no-repeat;
     width: 65px;
     height: 65px;
@@ -29,24 +28,24 @@
     display: block;
     margin: 0 auto;
     margin-top: 25px;
-    background-image: url("../../images/orange-arrow.svg");
+    background-image: url("../images/orange-arrow.svg");
     background-repeat: no-repeat;
     width: 21px;
     height: 18px;
 }
 
 .service-item:nth-child(2) .service-item-text::before{
-    background-image: url("../../images/pc.svg");
+    background-image: url("../images/pc.svg");
 }
 .service-item:nth-child(3) .service-item-text::before{
-    background-image: url("../../images/ps-4.svg");
+    background-image: url("../images/ps-4.svg");
 }
 .service-item:nth-child(4) .service-item-text::before{
-    background-image: url("../../images/vr.svg");
+    background-image: url("../images/vr.svg");
 }
 .service-item:nth-child(5) .service-item-text::before{
-    background-image: url("../../images/tv.svg");
+    background-image: url("../images/tv.svg");
 }
 .service-item:nth-child(6) .service-item-text::before{
-    background-image: url("../../images/cube.svg");
+    background-image: url("../images/cube.svg");
 }

@@ -20,6 +20,7 @@
         max-width: 282px;
     }
     &:last-child{
+        margin-top: 90px;
         max-width: 280px;
     }
 }
@@ -31,9 +32,6 @@
 .footer-link{
     width: 34px;
     height: 34px;
-}
-.footer-bootom{
-    
 }
 @media only screen and (min-width:768px){
     .footer-p-last{
